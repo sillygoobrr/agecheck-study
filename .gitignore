@@ -1,0 +1,19 @@
+# dependencies
+node_modules/
+
+# research data and secrets (never commit participant records or tokens)
+server/data/
+.env
+*.env
+
+# test output
+test-results/
+playwright-report/
+
+# local
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
+.e2e-data/

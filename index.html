@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="referrer" content="no-referrer" />
+    <meta name="robots" content="noindex, nofollow" />
+    <!-- No camera, microphone, or other device access is ever requested.
+         The reference server also sends a Permissions-Policy header that
+         blocks camera and microphone for every page it serves. -->
+    <title>AgeCheck Study</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#app">Skip to content</a>
+    <header class="app-header">
+      <div class="brand">
+        AgeCheck Study
+        <small>A research app. The platform shown inside it is fictional.</small>
+      </div>
+      <div class="header-right" id="header-right"></div>
+    </header>
+    <main id="app" aria-live="polite">
+      <div class="card"><p>Loading…</p></div>
+    </main>
+    <footer>No camera, microphone, facial images, or government IDs are used by this app.</footer>
+    <script type="module" src="src/app.js"></script>
+  </body>
+</html>
